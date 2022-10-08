@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f34d84da-55b0-46e3-871a-08956767f797" name="Changes" comment="3장 내용 추가" />
+    <list default="true" id="f34d84da-55b0-46e3-871a-08956767f797" name="Changes" comment="3장 가변인자 내용 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PrivateFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RangeExpression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +51,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.FunctionsKt">
+  <component name="RunManager" selected="Kotlin.RangeExpressionKt">
     <configuration name="FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FunctionsKt" />
       <module name="kotlin-guide.main" />
@@ -62,8 +66,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RangeExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RangeExpressionKt" />
+      <module name="kotlin-guide.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.RangeExpressionKt" />
         <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
@@ -77,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665201661430</updated>
-      <workItem from="1665201662745" duration="5776000" />
+      <workItem from="1665201662745" duration="8419000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1665204119223</created>
@@ -93,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665208815963</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3장 가변인자 내용 추가">
+      <created>1665209271171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665209271171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="3장 내용 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="3장 내용 추가" />
+    <MESSAGE value="3장 가변인자 내용 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="3장 가변인자 내용 추가" />
   </component>
 </project>
