@@ -25,7 +25,11 @@ fun restrictToRange(
     what: Int
 ): Int = Math.max(from, Math.min(to, what))
 
-// 가변인자
+/**
+ * 가변인자, 둘 이상은 금지임
+ * 가변인자가 맨 마지막에 있지않는 한, 가변인자 뒤에 오는 인자는 이름 붙은 인자만 가능
+ * 따라서 가변인자를 맨 마지막에 쓰는 게 좋은 컨벤션이다.
+ */
 fun printSorted(vararg items: Int) {
     items.sort()
     println(items.contentToString())
@@ -60,5 +64,5 @@ fun main() {
      * 하지만 얕은 복사이므로 배열에 참조가 있는 경우에는 바뀔 수 있다.
      */
     printSorted(*numbers)
-
+    printSorted(6, 1, *intArrayOf(3, 8), 2) // 여러 인자와 스프레드 섞어서 호출 가능
 }
