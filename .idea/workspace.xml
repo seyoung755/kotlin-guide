@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f34d84da-55b0-46e3-871a-08956767f797" name="Changes" comment="3장 가변인자 내용 추가">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PrivateFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RangeExpression.kt" afterDir="false" />
+    <list default="true" id="f34d84da-55b0-46e3-871a-08956767f797" name="Changes" comment="3장 내용 추가(반복, 꼬리 재귀 등)">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter4/AnotherPerson.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter4/Person.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -51,7 +51,14 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.RangeExpressionKt">
+  <component name="RunManager" selected="Kotlin.AnotherPersonKt">
+    <configuration name="AnotherPersonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.AnotherPersonKt" />
+      <module name="kotlin-guide.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FunctionsKt" />
       <module name="kotlin-guide.main" />
@@ -66,6 +73,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.PersonKt" />
+      <module name="kotlin-guide.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RangeExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RangeExpressionKt" />
       <module name="kotlin-guide.main" />
@@ -75,6 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AnotherPersonKt" />
+        <item itemvalue="Kotlin.PersonKt" />
         <item itemvalue="Kotlin.RangeExpressionKt" />
         <item itemvalue="Kotlin.FunctionsKt" />
         <item itemvalue="Kotlin.MainKt" />
@@ -89,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665201661430</updated>
-      <workItem from="1665201662745" duration="8419000" />
+      <workItem from="1665201662745" duration="11081000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1665204119223</created>
@@ -112,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665209271171</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3장 내용 추가(반복, 꼬리 재귀 등)">
+      <created>1665213855650</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665213855650</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +156,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="3장 내용 추가" />
     <MESSAGE value="3장 가변인자 내용 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="3장 가변인자 내용 추가" />
+    <MESSAGE value="3장 내용 추가(반복, 꼬리 재귀 등)" />
+    <option name="LAST_COMMIT_MESSAGE" value="3장 내용 추가(반복, 꼬리 재귀 등)" />
   </component>
 </project>
